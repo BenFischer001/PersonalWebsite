@@ -12,9 +12,11 @@ function App() {
         <Title title={'Good Morning'} underText={'tag line'}/>
         <Line/>
         <Title title={'About Me'}/>
-        <InfoCard title={'Tagging Specialist'}/>
-        <InfoCard title={'Front End Developer'}/>
-        <InfoCard title={'Data Analyst'}/>
+        <div className='infoCards'>
+          <InfoCard title={'Tagging Specialist'} points={['point 1','point 2','point 3']}/>
+          <InfoCard title={'Front End Developer'} points={['point 1','point 2','point 3']}/>
+          <InfoCard title={'Data Analyst'} points={['point 1','point 2','point 3']}/>
+        </div>
     </div>
   );
 }

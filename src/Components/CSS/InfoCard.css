@@ -1,3 +1,11 @@
 .infoCard{
     
 }
+
+.point {
+    list-style-type: none;
+}
+
+.pointsList {
+    padding: 0;
+}
