@@ -13,9 +13,9 @@ function App() {
         <Line/>
         <Title title={'About Me'}/>
         <div className='infoCards'>
-          <InfoCard title={'Tagging Specialist'} points={['point 1','point 2','point 3']}/>
-          <InfoCard title={'Front End Developer'} points={['point 1','point 2','point 3']}/>
-          <InfoCard title={'Data Analyst'} points={['point 1','point 2','point 3']}/>
+          <InfoCard title={'Tagging Specialist'} listTitle={'projects'} points={['point 1','point 2','point 3']}/>
+          <InfoCard title={'Front End Developer'} listTitle={'websites'} points={['point 1','point 2','point 3']}/>
+          <InfoCard title={'Data Analyst'} listTitle={'Experience'} points={['point 1','point 2','point 3']}/>
         </div>
     </div>
   );
